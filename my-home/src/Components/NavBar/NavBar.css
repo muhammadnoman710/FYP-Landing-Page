@@ -1,0 +1,135 @@
+/* .Page 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+    position: absolute;
+    width: 1474px;
+    height: 2096px;
+    left: 1px;
+    top: 40px;
+} */
+
+/* Navbar */
+
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 1474px;
+    height: 139px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.NavInside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 7px;
+
+    width: 1474px;
+    height: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.NavInside img {
+    width: 201px;
+    height: 55px;
+    position: relative;
+    left: 35px;
+}
+
+input.prompt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px 19px 7px 15px;
+    gap: 8px;
+    width: 627px;
+    height: 40px;
+    background: #1B1A21;
+    border-radius: 10px;    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.para1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    padding-right: 20px;
+}
+.para2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #706b6b;
+    padding-right: 20px;
+    }
+.para3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #706b6b;
+}
+
+.create {
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 30px;
+    gap: 10px;
+    position: absolute;
+    width: 109px;
+    height: 40px;
+    left: 1209px;
+    top: 45px;
+    background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+    border-radius: 10px;
+}
+
+.connect {
+    box-sizing: border-box;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 30px;
+    gap: 10px;
+    position: absolute;
+    width: 146px;
+    height: 40px;
+    left: 1328px;
+    top: 45px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #DA18A3;
+    background-color:#2A2D3A;
+    border-color:#DA18A3;
+}

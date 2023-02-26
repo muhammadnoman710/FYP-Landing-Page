@@ -1,0 +1,43 @@
+div.container-sm {
+    position: absolute;
+    width: 992px;
+    height: 300px;
+    left: 300px;
+    top: 199px;
+    background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+    border-radius: 25px;
+}
+
+.para {
+    position: absolute;
+    width: 663px;
+    height: 111px;
+    left: 90px;
+    top: 90px;
+
+    font-family: 'Advent Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 105.7%;
+    color: #FFFFFF;
+}
+
+.ellipse {
+    position: absolute;
+    width: 338px;
+    height: 338px;
+    left: -150px;
+    bottom: 100px;
+    border-radius: 80%;
+    background: rgba(255, 255, 255, 0.2);
+}
+.ellipse-two {
+    position: absolute;
+    width: 338px;
+    height: 338px;
+    right: -110px;
+    top: 70px;
+    border-radius: 80%;
+    background: rgba(255, 255, 255, 0.2);
+}

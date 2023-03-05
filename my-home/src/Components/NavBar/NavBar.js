@@ -3,15 +3,17 @@ import './NavBar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
+//import nav from "react-bootstrap/nav"
+//import { NavLink } from 'react-router-dom';
 
 function NavBar() {
 
   return (
-   
+
     <div className='Navbar'>
         <div className='NavInside'>
         <img src="../Icons/Group 18.svg" alt='error'/>
-          <h2>NIFTY</h2>
+          <h2 className='heading'>NIFTY</h2>
         <div className='ui icon input'>
         <i className='search icon'></i>
             <input className="prompt" type="text" placeholder='Search Item Here'/>

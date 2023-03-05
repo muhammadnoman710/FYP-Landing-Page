@@ -51,11 +51,11 @@
     position: relative;
     left: 35px;
 }
-h2 {
+.heading {
     position: relative;
-    right: 120px;
+    top: -0px;
+    left: -115px;
 }
-
 input.prompt {
     display: flex;
     flex-direction: row;

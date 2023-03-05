@@ -41,39 +41,128 @@
     left: 0px;
     top: 152px;
 }
+
 .cards {
     position: absolute;
+    height: 200px;
     width: 988px;
     height: 200px;
-    left: 20.5px;
-    top: 72px;
+    left: 10px;
+    top: -20px;;
 }
 .multiple-cards {
-    position: absolute;
+    /* position: absolute;
     width: 180px;
     height: 200px;
     left: 828.5px;
-    top: 72px;
-}
-.ids {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 5px;
+    top: 72px; */
     position: absolute;
-    left: 27.22%;
-    right: 25.56%;
-    top: 22.5%;
-    bottom: 9%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #2A2D3A;
+    border-radius: 20px;
+}
+.ids1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Black/3 */
+    height: 182px;
+    width: 180px;
+    left: 250px;
+    top: 11px;
+    border-radius: 20px;
+    
+    background:black;
+    border-radius: 20px;
     }
+
+    .ids2 {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Black/3 */
+        height: 182px;
+        width: 180px;
+        left:480px;
+        top: 11px;
+        border-radius: 20px;
+        
+        background:black;
+        border-radius: 20px;
+        }
+
+        .ids3 {
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            bottom: 0%;
+        
+            /* Black/3 */
+            height: 182px;
+            width: 180px;
+            left: 715px;
+            top: 11px;
+            border-radius: 20px;
+            
+            background:black;
+            border-radius: 20px;
+            }
+            .ids4 {
+                position: absolute;
+                left: 0%;
+                right: 0%;
+                top: 0%;
+                bottom: 0%;
+            
+                /* Black/3 */
+                height: 182px;
+                width: 180px;
+                left: 35px;
+                top: 11px;
+                border-radius: 20px;
+                
+                background:black;
+                border-radius: 20px;
+                }
+
+                .ids5 {
+                    position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    top: 0%;
+                    bottom: 0%;
+                
+                    /* Black/3 */
+                    height: 200px;
+                    width: 180px;
+                    left: 0px;
+                    top: 0px;
+                    border-radius: 20px;
+                    
+                    background:black;
+                    border-radius: 20px;
+                    }
+                
+
+
 .profile {
-    width: 77px;
-    height: 77px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: -5.5px;
+    top: -5px;
+
+    background-color:white;
 }
 .status{
     position: absolute;
@@ -81,6 +170,7 @@
     height: 15px;
     left: 61px;
     top: 62px;
+    background-color: green;
     }
 .check {
     position: absolute;
@@ -90,10 +180,27 @@
     top: 66px;
 }
 .vector {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 15.11%;
-    bottom: 14.95%;
-    background: #FFFFFF;
+    width: 87px;
+    height: 24px;
+    
+    /* Paragraph 1 (SemiBold) */
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    /* White */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }

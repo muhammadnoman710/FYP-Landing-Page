@@ -28,16 +28,18 @@
     padding: 0px;
     gap: 20px;
 
-    width: 992px;
+    width: 1000px;
     height: 658px;
+    background-color: #24252D;
+    border-radius: 15px;
 }
 .HotBids-containerInside1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding-top: 15px;
+    padding-left: 10px;
     gap: 20px;
-    
     width: 992px;
     height: 319px;   
 }
@@ -66,7 +68,7 @@
     background: #2A2D3A;
     border-radius: 20px;
 }
-.card-pic1 {
+.pic1 img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -75,11 +77,12 @@
 
     position: absolute;
     width: 210px;
-    height: 289px;
-    left: 11px;
-    top: 11px;
+    height: 200px;
+    left: 270px;
+    top: 110px;
+    border-radius: 10px;
 }
-.card-pic2 {
+.pic2 img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -88,11 +91,12 @@
 
     position: absolute;
     width: 210px;
-    height: 289px;
-    left: 11px;
-    top: 11px;
+    height: 200px;
+    left: 20px;
+    top: 110px;
+    border-radius: 10px;
 }
-.card-pic3 {
+div.card-pic3 img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -101,11 +105,12 @@
 
     position: absolute;
     width: 210px;
-    height: 289px;
-    left: 11px;
-    top: 11px;
+    height: 200px;
+    left: 772px;
+    top: 110px;
+    border-radius: 10px;
 }
-.card-pic4 {
+.card-pic4 img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -114,11 +119,66 @@
 
     position: absolute;
     width: 210px;
-    height: 289px;
-    left: 11px;
-    top: 11px;
+    height: 200px;
+    left: 520px;
+    top: 110px;
+    border-radius: 10px;
 }
 
+.text1 {
+    position: absolute;
+    top: 320px;
+    left: 30px;
+    width: 173px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.text2 {
+    position: absolute;
+    top: 320px;
+    left: 280px;
+    width: 173px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.text3 {
+    position: absolute;
+    top: 320px;
+    left: 530px;
+    width: 173px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.text4 {
+    position: absolute;
+    top: 320px;
+    left: 790px;
+    width: 173px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
 
 .HotBids-containerInside2 {
 display: flex;
@@ -129,4 +189,88 @@ gap: 20px;
 
 width: 992px;
 height: 319px;
+flex: none;
+order: 1;
+flex-grow: 0;
+padding-left: 10px;
 }
+.Card-Card1 {
+    width: 233px;
+    height: 319px;
+    background: #2A2D3A;
+    border-radius: 20px;
+}
+.Card-Card2 {
+    height: 319px;
+    width: 233px;
+    left: 253px;
+    top: 0px;
+    border-radius: 20px;
+    background: #2A2D3A;
+}
+.Card-Card3 {
+    height: 319px;
+    width: 233px;
+    left: 506px;
+    top: 0px;
+    border-radius: 20px;
+    background: #2A2D3A;
+}
+.Card-Card4 {
+    height: 319px;
+    width: 233px;
+    left: 759px;
+    top: 0px;
+    border-radius: 20px;  
+    background: #2A2D3A;
+
+}
+.frame1{
+    height: 289px;
+    width: 210px;
+    left: 11px;
+    top: 11px;
+    border-radius: 0px;
+}
+.frame2{
+    height: 289px;
+    width: 210px;
+    left: 11px;
+    top: 11px;
+    border-radius: 0px;    
+}
+.frame3{
+    height: 289px;
+    width: 210px;
+    left: 11px;
+    top: 11px;
+    border-radius: 0px;    
+}
+.frame4{
+    height: 289px;
+    width: 210px;
+    left: 11px;
+    top: 11px;
+    border-radius: 0px;
+}
+.button {
+    height:50px;
+    width: 300px;
+    left: 600px;
+    top: 1750px;
+    border-radius: 10px;
+    padding: 9px 30px 9px 30px;
+    background-color: #2A2D3A;
+    border-style: solid;
+    border-color: #DA18A3;
+    color: #DA18A3;
+}
+/* .txt-button {
+    position:absolute;
+    height: 15px;
+    width: 100px;
+    left: 105px;
+    top: 9.5px;
+    color: #DA18A3;
+    border-radius: nullpx;
+} */

@@ -1,12 +1,15 @@
 import React ,  {useState} from 'react'
 import './HotBids.css'
+//import { CSSTransition } from 'react-transition-group';
 
 function HotBids() {
-    const [show , setShow] = useState(false)
+    const [showcomponent , setShowComponent] = useState(false)
+    const [button , setButton] =  useState(true)
+    // const nodeRef = useRef(null);
   return (
     <div>
     <div className='HotBids-container'><p>Hot Bids</p>
-    <div className='HotBids-containerInside'>
+     <div className='HotBids-containerInside'>
         <div className='HotBids-containerInside1'>
             <div className='HotBids-cards1'>
                 <div className='pic1'>
@@ -32,9 +35,8 @@ function HotBids() {
                 <text className='text4'>Paint Color On Wall</text>
                 </div>
             </div>
-
         </div>
-         {show && <div className='HotBids-containerInside2'>
+        {showcomponent &&  <div className='HotBids-containerInside2'>
             <div className='Card-Card1'>
                 <div className='frame1'>
 
@@ -57,10 +59,21 @@ function HotBids() {
             </div>
         </div>}
         </div>
-        </div>
-    <div>
-        <button className='button' onClick={() => {setShow(!show)}}>Load More</button>
+            </div>
+        {/* <CSSTransition
+        in={showcomponent}
+        nodeRef={nodeRef}
+        timeout={300}
+        classNames="HotBids-containerInside2"
+        unmountOnExit
+        onEnter={() => setButton(false)}
+        onExited={() => setButton(true)}
+      >  */}
+   { button && <div>
+        <button className='button' onClick={() => {setShowComponent(!showcomponent)}}>Load More</button>
     </div>
+   }
+    {/* </CSSTransition> */}
     </div>
   )
 }
